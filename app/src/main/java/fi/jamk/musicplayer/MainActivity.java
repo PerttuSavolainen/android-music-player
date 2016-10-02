@@ -44,9 +44,6 @@ public class MainActivity extends AppCompatActivity {
         listview = (ListView) findViewById(R.id.listView);
         mediaPath = "/storage/extSdCard/Music/";
 
-        //mediaPlayer = MediaPlayer.create(MainActivity.this, Uri.parse(songs.get(0)));
-        mediaPlayer = new MediaPlayer();
-
         // item listener
         listview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
